@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python
 from mcw import main
 
 if __name__ == '__main__':

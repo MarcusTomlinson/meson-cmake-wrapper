@@ -42,6 +42,8 @@ Add manual CMake option with path of `mcw`.
 
 2. Create an empty `CMakeLists.txt` file in root of project.
 
+*NOTE: If you get issues finding ninja / meson, add '/usr/local/bin' to the Build Environment PATH*
+
 ### VS Code
 1. Install [vscode-cmake-tools](https://github.com/vector-of-bool/vscode-cmake-tools).
 

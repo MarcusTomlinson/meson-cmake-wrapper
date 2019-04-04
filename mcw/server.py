@@ -192,7 +192,7 @@ class ServerWrapper:
                         ],
                     },
                 ],
-                'serverMode': True,
+                'serverMode': False,
                 'version': {
                     'isDirty': False,
                     'major': self.cmake.version[0],
