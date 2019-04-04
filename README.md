@@ -37,12 +37,11 @@ $ mcw -G"CodeBlocks - Ninja" -DCMAKE_BUILD_TYPE=Debug <build-dir>
 2. In Code::Blocks open: `<build-dir>/<project-name>.cbp` 
 
 ### QtCreator
-1. In CMake settings (Tools > Options... > Build & Run > CMake):
-Add manual CMake option with path of `mcw`.
+1. Add manual CMake option with the path of `mcw.py`.
 
 2. Create an empty `CMakeLists.txt` file in root of project.
 
-*NOTE: If QtCreator has issues finding python/ninja/meson, add '/usr/local/bin' to the Build Environment PATH*
+*NOTE: If QtCreator has issues finding python/ninja/meson, add '/usr/local/bin' to the Build Environment PATH. You may even need to edit the #! at the top of mcw.py*
 
 ### VS Code
 1. Install [vscode-cmake-tools](https://github.com/vector-of-bool/vscode-cmake-tools).
